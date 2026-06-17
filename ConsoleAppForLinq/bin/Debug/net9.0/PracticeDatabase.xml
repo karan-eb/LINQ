@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PracticeDatabase>
+  <Customers>
+    <Customer Id="1" Name="John Doe" City="New York" />
+    <Customer Id="2" Name="Christopher Reed" City="New York" />
+    <Customer Id="3" Name="Jane Smith" City="Los Angeles" />
+    <Customer Id="4" Name="Michael Johnson" City="Chicago" />
+    <Customer Id="5" Name="Amanda Clark" City="New York" />
+    <Customer Id="6" Name="Emily Davis" City="Boston" />
+    <Customer Id="7" Name="Anna Wilson" City="Seattle" />
+    <Customer Id="8" Name="Zoe Anderson" City="Dallas" />
+    <Customer Id="9" Name="Liam Martin" City="Denver" />
+    <Customer Id="10" Name="Sophia Turner" City="Miami" />
+    <Customer Id="11" Name="Oliver Scott" City="Portland" />
+    <Customer Id="12" Name="Mia Thompson" City="Phoenix" />
+  </Customers>
+
+  <Products>
+    <Product Id="1" Name="Laptop Stand" Price="25.00" ExpiryDate="2028-12-31T00:00:00" />
+    <Product Id="2" Name="Wireless Mouse" Price="15.00" ExpiryDate="2028-12-31T00:00:00" />
+    <Product Id="3" Name="Mechanical Keyboard" Price="45.00" ExpiryDate="2028-12-31T00:00:00" />
+    <Product Id="4" Name="USB-C Hub" Price="30.00" ExpiryDate="2028-12-31T00:00:00" />
+    <Product Id="5" Name="Monitor" Price="120.00" ExpiryDate="2028-12-31T00:00:00" />
+    <Product Id="6" Name="Desk Lamp" Price="18.00" ExpiryDate="2028-12-31T00:00:00" />
+    <Product Id="7" Name="Notebook Pack" Price="5.00" ExpiryDate="2028-12-31T00:00:00" />
+    <Product Id="8" Name="Pen Set" Price="8.00" ExpiryDate="2028-12-31T00:00:00" />
+    <Product Id="9" Name="Office Chair" Price="150.00" ExpiryDate="2028-12-31T00:00:00" />
+    <Product Id="10" Name="Headset" Price="60.00" ExpiryDate="2028-12-31T00:00:00" />
+    <Product Id="11" Name="Web Camera" Price="55.00" ExpiryDate="2028-12-31T00:00:00" />
+    <Product Id="12" Name="External SSD" Price="95.00" ExpiryDate="2028-12-31T00:00:00" />
+    <Product Id="13" Name="Whiteboard" Price="35.00" ExpiryDate="2028-12-31T00:00:00" />
+    <Product Id="14" Name="Water Bottle" Price="12.00" ExpiryDate="2028-12-31T00:00:00" />
+    <Product Id="15" Name="Sticky Notes" Price="3.00" ExpiryDate="2028-12-31T00:00:00" />
+  </Products>
+
+  <Orders>
+    <Order Id="1" CustomerId="1" OrderDate="2026-01-05T00:00:00" Status="Completed" Amount="85.00">
+      <ListItems>
+        <OrderItems Id="1" OrderId="1" ProductId="2" Quantity="2" Cost="15.00" />
+        <OrderItems Id="2" OrderId="1" ProductId="4" Quantity="1" Cost="30.00" />
+        <OrderItems Id="3" OrderId="1" ProductId="7" Quantity="5" Cost="5.00" />
+      </ListItems>
+    </Order>
+    <Order Id="2" CustomerId="2" OrderDate="2026-01-17T00:00:00" Status="Shipped" Amount="105.00">
+      <ListItems>
+        <OrderItems Id="4" OrderId="2" ProductId="3" Quantity="1" Cost="45.00" />
+        <OrderItems Id="5" OrderId="2" ProductId="10" Quantity="1" Cost="60.00" />
+      </ListItems>
+    </Order>
+    <Order Id="3" CustomerId="3" OrderDate="2026-02-03T00:00:00" Status="Pending" Amount="170.00">
+      <ListItems>
+        <OrderItems Id="6" OrderId="3" ProductId="5" Quantity="1" Cost="120.00" />
+        <OrderItems Id="7" OrderId="3" ProductId="1" Quantity="2" Cost="25.00" />
+      </ListItems>
+    </Order>
+    <Order Id="4" CustomerId="1" OrderDate="2026-02-14T00:00:00" Status="Completed" Amount="118.00">
+      <ListItems>
+        <OrderItems Id="8" OrderId="4" ProductId="6" Quantity="3" Cost="18.00" />
+        <OrderItems Id="9" OrderId="4" ProductId="8" Quantity="2" Cost="8.00" />
+        <OrderItems Id="10" OrderId="4" ProductId="14" Quantity="4" Cost="12.00" />
+      </ListItems>
+    </Order>
+    <Order Id="5" CustomerId="4" OrderDate="2026-02-20T00:00:00" Status="Cancelled" Amount="150.00">
+      <ListItems>
+        <OrderItems Id="11" OrderId="5" ProductId="9" Quantity="1" Cost="150.00" />
+      </ListItems>
+    </Order>
+    <Order Id="6" CustomerId="5" OrderDate="2026-03-02T00:00:00" Status="Processing" Amount="125.00">
+      <ListItems>
+        <OrderItems Id="12" OrderId="6" ProductId="11" Quantity="2" Cost="55.00" />
+        <OrderItems Id="13" OrderId="6" ProductId="2" Quantity="1" Cost="15.00" />
+      </ListItems>
+    </Order>
+    <Order Id="7" CustomerId="6" OrderDate="2026-03-11T00:00:00" Status="Completed" Amount="135.00">
+      <ListItems>
+        <OrderItems Id="14" OrderId="7" ProductId="12" Quantity="1" Cost="95.00" />
+        <OrderItems Id="15" OrderId="7" ProductId="7" Quantity="8" Cost="5.00" />
+      </ListItems>
+    </Order>
+    <Order Id="8" CustomerId="7" OrderDate="2026-03-19T00:00:00" Status="Shipped" Amount="130.00">
+      <ListItems>
+        <OrderItems Id="16" OrderId="8" ProductId="13" Quantity="2" Cost="35.00" />
+        <OrderItems Id="17" OrderId="8" ProductId="4" Quantity="2" Cost="30.00" />
+      </ListItems>
+    </Order>
+    <Order Id="9" CustomerId="8" OrderDate="2026-04-01T00:00:00" Status="Completed" Amount="54.00">
+      <ListItems>
+        <OrderItems Id="18" OrderId="9" ProductId="15" Quantity="10" Cost="3.00" />
+        <OrderItems Id="19" OrderId="9" ProductId="14" Quantity="2" Cost="12.00" />
+      </ListItems>
+    </Order>
+    <Order Id="10" CustomerId="9" OrderDate="2026-04-08T00:00:00" Status="Pending" Amount="138.00">
+      <ListItems>
+        <OrderItems Id="20" OrderId="10" ProductId="10" Quantity="2" Cost="60.00" />
+        <OrderItems Id="21" OrderId="10" ProductId="6" Quantity="1" Cost="18.00" />
+      </ListItems>
+    </Order>
+    <Order Id="11" CustomerId="10" OrderDate="2026-04-15T00:00:00" Status="Completed" Amount="239.00">
+      <ListItems>
+        <OrderItems Id="22" OrderId="11" ProductId="5" Quantity="1" Cost="120.00" />
+        <OrderItems Id="23" OrderId="11" ProductId="12" Quantity="1" Cost="95.00" />
+        <OrderItems Id="24" OrderId="11" ProductId="8" Quantity="3" Cost="8.00" />
+      </ListItems>
+    </Order>
+    <Order Id="12" CustomerId="2" OrderDate="2026-05-02T00:00:00" Status="Shipped" Amount="135.00">
+      <ListItems>
+        <OrderItems Id="25" OrderId="12" ProductId="3" Quantity="2" Cost="45.00" />
+        <OrderItems Id="26" OrderId="12" ProductId="1" Quantity="1" Cost="25.00" />
+        <OrderItems Id="27" OrderId="12" ProductId="7" Quantity="4" Cost="5.00" />
+      </ListItems>
+    </Order>
+    <Order Id="13" CustomerId="4" OrderDate="2026-05-13T00:00:00" Status="Completed" Amount="312.00">
+      <ListItems>
+        <OrderItems Id="28" OrderId="13" ProductId="9" Quantity="2" Cost="150.00" />
+        <OrderItems Id="29" OrderId="13" ProductId="14" Quantity="1" Cost="12.00" />
+      </ListItems>
+    </Order>
+    <Order Id="14" CustomerId="5" OrderDate="2026-05-20T00:00:00" Status="Refunded" Amount="106.00">
+      <ListItems>
+        <OrderItems Id="30" OrderId="14" ProductId="11" Quantity="1" Cost="55.00" />
+        <OrderItems Id="31" OrderId="14" ProductId="13" Quantity="1" Cost="35.00" />
+        <OrderItems Id="32" OrderId="14" ProductId="8" Quantity="2" Cost="8.00" />
+      </ListItems>
+    </Order>
+    <Order Id="15" CustomerId="3" OrderDate="2026-06-04T00:00:00" Status="Processing" Amount="156.00">
+      <ListItems>
+        <OrderItems Id="33" OrderId="15" ProductId="4" Quantity="3" Cost="30.00" />
+        <OrderItems Id="34" OrderId="15" ProductId="2" Quantity="2" Cost="15.00" />
+        <OrderItems Id="35" OrderId="15" ProductId="6" Quantity="2" Cost="18.00" />
+      </ListItems>
+    </Order>
+    <Order Id="16" CustomerId="1" OrderDate="2026-06-10T00:00:00" Status="Completed" Amount="250.00">
+      <ListItems>
+        <OrderItems Id="36" OrderId="16" ProductId="10" Quantity="1" Cost="60.00" />
+        <OrderItems Id="37" OrderId="16" ProductId="12" Quantity="2" Cost="95.00" />
+      </ListItems>
+    </Order>
+    <Order Id="17" CustomerId="7" OrderDate="2026-06-15T00:00:00" Status="Pending" Amount="103.00">
+      <ListItems>
+        <OrderItems Id="38" OrderId="17" ProductId="1" Quantity="3" Cost="25.00" />
+        <OrderItems Id="39" OrderId="17" ProductId="15" Quantity="6" Cost="3.00" />
+        <OrderItems Id="40" OrderId="17" ProductId="7" Quantity="2" Cost="5.00" />
+      </ListItems>
+    </Order>
+    <Order Id="18" CustomerId="8" OrderDate="2026-06-22T00:00:00" Status="Shipped" Amount="235.00">
+      <ListItems>
+        <OrderItems Id="41" OrderId="18" ProductId="5" Quantity="1" Cost="120.00" />
+        <OrderItems Id="42" OrderId="18" ProductId="11" Quantity="1" Cost="55.00" />
+        <OrderItems Id="43" OrderId="18" ProductId="14" Quantity="5" Cost="12.00" />
+      </ListItems>
+    </Order>
+  </Orders>
+
+  <Candidates>
+    <Candidate Id="1" Name="Alice Brown" Source="Referral" />
+    <Candidate Id="2" Name="Brian Lee" Source="LinkedIn" />
+    <Candidate Id="3" Name="Carla Green" Source="Website" />
+    <Candidate Id="4" Name="Daniel Scott" Source="Referral" />
+    <Candidate Id="5" Name="Emma Patel" Source="Agency" />
+    <Candidate Id="6" Name="Farah Khan" Source="LinkedIn" />
+    <Candidate Id="7" Name="George Miller" Source="Website" />
+    <Candidate Id="8" Name="Hannah Clark" Source="Career Fair" />
+    <Candidate Id="9" Name="Ivan Ross" Source="Referral" />
+  </Candidates>
+
+  <Jobs>
+    <Job Id="1" Title="Software Developer" City="New York" Department="Engineering" Salary="95000" Status="Open" />
+    <Job Id="2" Title="Data Analyst" City="Chicago" Department="Analytics" Salary="82000" Status="Open" />
+    <Job Id="3" Title="QA Engineer" City="Austin" Department="Engineering" Salary="76000" Status="Open" />
+    <Job Id="4" Title="Product Manager" City="New York" Department="Product" Salary="110000" Status="Closed" />
+    <Job Id="5" Title="DevOps Engineer" City="Seattle" Department="Infrastructure" Salary="105000" Status="Open" />
+    <Job Id="6" Title="Business Analyst" City="Boston" Department="Operations" Salary="79000" Status="Open" />
+    <Job Id="7" Title="Frontend Developer" City="Denver" Department="Engineering" Salary="90000" Status="Open" />
+  </Jobs>
+
+  <Applications>
+    <Application Id="1" CandidateId="1" JobId="1" AppliedOn="2026-01-06T00:00:00" Status="Submitted" />
+    <Application Id="2" CandidateId="2" JobId="1" AppliedOn="2026-01-08T00:00:00" Status="Shortlisted" />
+    <Application Id="3" CandidateId="3" JobId="2" AppliedOn="2026-01-10T00:00:00" Status="Submitted" />
+    <Application Id="4" CandidateId="4" JobId="3" AppliedOn="2026-02-01T00:00:00" Status="Interview" />
+    <Application Id="5" CandidateId="5" JobId="4" AppliedOn="2026-02-03T00:00:00" Status="Submitted" />
+    <Application Id="6" CandidateId="6" JobId="1" AppliedOn="2026-02-18T00:00:00" Status="Submitted" />
+    <Application Id="7" CandidateId="7" JobId="5" AppliedOn="2026-03-02T00:00:00" Status="Rejected" />
+    <Application Id="8" CandidateId="8" JobId="2" AppliedOn="2026-03-05T00:00:00" Status="Submitted" />
+    <Application Id="9" CandidateId="9" JobId="6" AppliedOn="2026-03-12T00:00:00" Status="Shortlisted" />
+    <Application Id="10" CandidateId="1" JobId="5" AppliedOn="2026-04-02T00:00:00" Status="Submitted" />
+    <Application Id="11" CandidateId="3" JobId="3" AppliedOn="2026-04-14T00:00:00" Status="Interview" />
+    <Application Id="12" CandidateId="2" JobId="6" AppliedOn="2026-05-01T00:00:00" Status="Submitted" />
+    <Application Id="13" CandidateId="4" JobId="2" AppliedOn="2026-05-12T00:00:00" Status="Offered" />
+  </Applications>
+</PracticeDatabase>

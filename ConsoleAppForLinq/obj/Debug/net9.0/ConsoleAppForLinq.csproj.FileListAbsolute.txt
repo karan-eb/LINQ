@@ -13,3 +13,4 @@ d:\Study\2026\BasicsOfLinq\ConsoleAppForLinq\obj\Debug\net9.0\refint\ConsoleAppF
 d:\Study\2026\BasicsOfLinq\ConsoleAppForLinq\obj\Debug\net9.0\ConsoleAppForLinq.pdb
 d:\Study\2026\BasicsOfLinq\ConsoleAppForLinq\obj\Debug\net9.0\ConsoleAppForLinq.genruntimeconfig.cache
 d:\Study\2026\BasicsOfLinq\ConsoleAppForLinq\obj\Debug\net9.0\ref\ConsoleAppForLinq.dll
+d:\Study\2026\BasicsOfLinq\ConsoleAppForLinq\bin\Debug\net9.0\PracticeDatabase.xml
