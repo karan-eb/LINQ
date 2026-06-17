@@ -1,0 +1,15 @@
+d:\Study\2026\BasicsOfLinq\ConsoleAppForLinq\bin\Debug\net9.0\ConsoleAppForLinq.exe
+d:\Study\2026\BasicsOfLinq\ConsoleAppForLinq\bin\Debug\net9.0\ConsoleAppForLinq.deps.json
+d:\Study\2026\BasicsOfLinq\ConsoleAppForLinq\bin\Debug\net9.0\ConsoleAppForLinq.runtimeconfig.json
+d:\Study\2026\BasicsOfLinq\ConsoleAppForLinq\bin\Debug\net9.0\ConsoleAppForLinq.dll
+d:\Study\2026\BasicsOfLinq\ConsoleAppForLinq\bin\Debug\net9.0\ConsoleAppForLinq.pdb
+d:\Study\2026\BasicsOfLinq\ConsoleAppForLinq\obj\Debug\net9.0\ConsoleAppForLinq.GeneratedMSBuildEditorConfig.editorconfig
+d:\Study\2026\BasicsOfLinq\ConsoleAppForLinq\obj\Debug\net9.0\ConsoleAppForLinq.AssemblyInfoInputs.cache
+d:\Study\2026\BasicsOfLinq\ConsoleAppForLinq\obj\Debug\net9.0\ConsoleAppForLinq.AssemblyInfo.cs
+d:\Study\2026\BasicsOfLinq\ConsoleAppForLinq\obj\Debug\net9.0\ConsoleAppForLinq.csproj.CoreCompileInputs.cache
+d:\Study\2026\BasicsOfLinq\ConsoleAppForLinq\obj\Debug\net9.0\ConsoleAppForLinq.sourcelink.json
+d:\Study\2026\BasicsOfLinq\ConsoleAppForLinq\obj\Debug\net9.0\ConsoleAppForLinq.dll
+d:\Study\2026\BasicsOfLinq\ConsoleAppForLinq\obj\Debug\net9.0\refint\ConsoleAppForLinq.dll
+d:\Study\2026\BasicsOfLinq\ConsoleAppForLinq\obj\Debug\net9.0\ConsoleAppForLinq.pdb
+d:\Study\2026\BasicsOfLinq\ConsoleAppForLinq\obj\Debug\net9.0\ConsoleAppForLinq.genruntimeconfig.cache
+d:\Study\2026\BasicsOfLinq\ConsoleAppForLinq\obj\Debug\net9.0\ref\ConsoleAppForLinq.dll
