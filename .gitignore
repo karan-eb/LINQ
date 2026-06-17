@@ -11,6 +11,7 @@ dist/
 *.dll
 *.pdb
 *.cache
+*.json
 
 # Ignore environment variables
 .env
